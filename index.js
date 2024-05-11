@@ -1,3 +1,3 @@
-const lcm = (a, b) => {
-  return (a * b) / gcd(a, b);
-};
+// Setup the client
+const aptosConfig = new AptosConfig({ network: APTOS_NETWORK });
+const aptos = new Aptos(aptosConfig);
